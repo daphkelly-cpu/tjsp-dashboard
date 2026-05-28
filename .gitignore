@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Temporary verification scripts from dev sessions
+verify_design.mjs
+verify_colors.mjs
+verify_font_final.mjs
+final_check.mjs
+final_verification.mjs
+quick_screenshot.mjs
+screenshot_pages.mjs
+
+# Claude development files
+.claude/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

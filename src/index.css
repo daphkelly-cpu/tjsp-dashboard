@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Design Tokens NEXUM */
+:root {
+  --color-primary: #14213d;
+  --color-accent: #fca311;
+  --color-bg: #f3f4f6;
+  --color-surface: #ffffff;
+  --color-border: #e5e5e5;
+  --color-text: #000000;
+  --color-text-muted: #6b7280;
+}
+
+/* Font Lato */
+body, html {
+  font-family: 'Lato', sans-serif;
+}
